@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Regression Suite">
+	<test name="Google Test">
+		<classes>
+			<class name="testCases.GoogleTest" />
+			
+		</classes>
+	</test>
+	
+	<test name="Amazon Test">
+		<classes>
+			<class name="testCases.AmazonTest" />
+		</classes>
+	</test>
+	
+	<test name="OpenCart Test">
+		<classes>
+			<class name="testCases.OpenCartTest" />
+		</classes>
+	</test>
+</suite>
